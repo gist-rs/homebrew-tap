@@ -3,24 +3,24 @@
 class CargoHeal < Formula
   desc "Modelless code healer: clippy, rust perf, kernel, docker, rustc-error fixes"
   homepage "https://github.com/gist-rs/cargo-heal"
-  version "0.1.0"
+  version "0.1.1"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/gist-rs/cargo-heal/releases/download/v0.1.0/cargo-heal-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "581f2a800e78df29eb8ea132b0baeb52e27a7b2ad4a852c2f39c3f5784b6996a"
+      url "https://github.com/gist-rs/cargo-heal/releases/download/v0.1.1/cargo-heal-v0.1.1-aarch64-apple-darwin.tar.gz"
+      sha256 "287fa077e422e7373d2c534698afcbb88b331c899c4be318eeaaad88c016a952"
     else
-      url "https://github.com/gist-rs/cargo-heal/releases/download/v0.1.0/cargo-heal-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "63a93297adbe90f3b40c4252ea72a7d16308207f181ae6fe0d47fea6e86c55dc"
+      url "https://github.com/gist-rs/cargo-heal/releases/download/v0.1.1/cargo-heal-v0.1.1-x86_64-apple-darwin.tar.gz"
+      sha256 "9fd84e497e9c1924df7b9e5583d422ca32d8995d6f754fce718572863e7f1701"
     end
   end
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/gist-rs/cargo-heal/releases/download/v0.1.0/cargo-heal-v0.1.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "7c3bb91fc6b12cf28e933e09c3a657c7e1f6b7ad9f695e3e1fb1690686eba183"
+      url "https://github.com/gist-rs/cargo-heal/releases/download/v0.1.1/cargo-heal-v0.1.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "78e2fd31e3022cfb325e36b1438b5faef9c8c5d575c05d4e3db392f65bfa2a2e"
     else
-      url "https://github.com/gist-rs/cargo-heal/releases/download/v0.1.0/cargo-heal-v0.1.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "3cf18c46c54605257cabd71e873df134a415900bb9a345fbd07093e2b62d7cd4"
+      url "https://github.com/gist-rs/cargo-heal/releases/download/v0.1.1/cargo-heal-v0.1.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "062bc3ea659a68b648094c42b128970b9c085143d0d41019522968d7980b8642"
     end
   end
 
