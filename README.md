@@ -8,6 +8,7 @@ nothing is built from source.
 
 ```sh
 brew tap gist-rs/tap
+brew trust gist-rs/tap   # one-time tap trust — Homebrew 6+ refuses untrusted taps
 brew install cargo-heal
 ```
 
