@@ -9,10 +9,10 @@ class RiirReflex < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/gist-rs/reflex/releases/download/v0.1.0/riir-reflex-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "a154697e3c7b988b07152f455c6794d48ceef2a6f6c069fd69f4be9df607b723"
+      sha256 "046fa20cc9a15e63e3bff2600999bb928b56857dd7ce72ba041b10e62ad9869c"
     else
       url "https://github.com/gist-rs/reflex/releases/download/v0.1.0/riir-reflex-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "0a13eb2b244236678302c7edc3b502d0cde14e94c57cafc2483202f2d26b48b7"
+      sha256 "0585b64b5e398fa622f862fed9418428d3576a0f01824a11bf8acb0cead7c781"
     end
   end
 
