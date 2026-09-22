@@ -4,15 +4,15 @@
 class RiirReflex < Formula
   desc "Modelless localhost decision engine — typed decisions, calibrated, abstains"
   homepage "https://github.com/gist-rs/reflex"
-  version "0.1.0"
+  version "0.1.1"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/gist-rs/reflex/releases/download/v0.1.0/riir-reflex-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "046fa20cc9a15e63e3bff2600999bb928b56857dd7ce72ba041b10e62ad9869c"
+      url "https://github.com/gist-rs/reflex/releases/download/v0.1.1/riir-reflex-v0.1.1-aarch64-apple-darwin.tar.gz"
+      sha256 "dac343ebdbfe0b55b8e07873331eb5bfb5f8c7ae52ca24272233f70089d59c4d"
     else
-      url "https://github.com/gist-rs/reflex/releases/download/v0.1.0/riir-reflex-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "0585b64b5e398fa622f862fed9418428d3576a0f01824a11bf8acb0cead7c781"
+      url "https://github.com/gist-rs/reflex/releases/download/v0.1.1/riir-reflex-v0.1.1-x86_64-apple-darwin.tar.gz"
+      sha256 "f034bab7361c60dfb5ef366234a0a3f7c358510a81d640e91e3333a368ba0772"
     end
   end
 
