@@ -4,24 +4,23 @@
 class RiirReflex < Formula
   desc "Modelless localhost decision engine — typed decisions, calibrated, abstains"
   homepage "https://github.com/gist-rs/reflex"
-  version "0.2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/gist-rs/reflex/releases/download/v0.2.0/riir-reflex-v0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "323f08a39e00f7ab9086326e20a2f04f9f2c24c03afc8ccf1dcebf99a4cb2851"
+      url "https://github.com/gist-rs/reflex/releases/download/v0.2.1/riir-reflex-v0.2.1-aarch64-apple-darwin.tar.gz"
+      sha256 "7cddc96cecd8090782e7ebc92bd19c7940f37901731ae17818b9d6c5462a68af"
     else
-      url "https://github.com/gist-rs/reflex/releases/download/v0.2.0/riir-reflex-v0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "eda5f0352354d9cc21a174e62a94a7ddd9a5acbdd4f239ca81c3a2085986b8c6"
+      url "https://github.com/gist-rs/reflex/releases/download/v0.2.1/riir-reflex-v0.2.1-x86_64-apple-darwin.tar.gz"
+      sha256 "4aefbf7d2502503601f0dfa065e4e85afc7f685c64e26329a92b0984f56a643b"
     end
   end
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/gist-rs/reflex/releases/download/v0.2.0/riir-reflex-v0.2.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "64e5d74a9a5c32a626ba8cc213aa683554e492a60c0301443cd21d47f127b246"
+      url "https://github.com/gist-rs/reflex/releases/download/v0.2.1/riir-reflex-v0.2.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "33c0b160a5e32b30dde0543bd2bc8b678599e4eb6d59d40d97d073417576fc4c"
     else
-      url "https://github.com/gist-rs/reflex/releases/download/v0.2.0/riir-reflex-v0.2.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "64782daa6b2afc9db3f28a96c23c0ab72f6e415b290538230c511490d56ee471"
+      url "https://github.com/gist-rs/reflex/releases/download/v0.2.1/riir-reflex-v0.2.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "082b6645d42b15b32116d37cfd7fb73c8c00bbd736cea0423b8157a6d73b4024"
     end
   end
 

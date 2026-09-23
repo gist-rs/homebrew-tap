@@ -3,7 +3,6 @@
 class CargoHeal < Formula
   desc "Modelless code healer: clippy, rust perf, kernel, docker, rustc-error fixes"
   homepage "https://github.com/gist-rs/cargo-heal"
-  version "0.1.4"
 
   on_macos do
     if Hardware::CPU.arm?
