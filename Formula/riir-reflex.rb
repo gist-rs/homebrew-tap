@@ -1,30 +1,31 @@
 # Manifest-only formula for the binary-only riir-reflex distribution
 # (katgpt-rs Plan 606). Generated from the release's SHA256SUMS — do not edit
-# by hand.
+# by hand. The installed COMMAND is `reflex` (the bin rename shipped in
+# v0.2.2) while the formula name stays `riir-reflex`.
 class RiirReflex < Formula
   desc "Modelless localhost decision engine — typed decisions, calibrated, abstains"
   homepage "https://github.com/gist-rs/reflex"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/gist-rs/reflex/releases/download/v0.2.1/riir-reflex-v0.2.1-aarch64-apple-darwin.tar.gz"
-      sha256 "7cddc96cecd8090782e7ebc92bd19c7940f37901731ae17818b9d6c5462a68af"
+      url "https://github.com/gist-rs/reflex/releases/download/v0.2.2/reflex-v0.2.2-aarch64-apple-darwin.tar.gz"
+      sha256 "64174c44a17b5bc6f30121a869c5727d2510f08b38d2f0b657419d93c29cf89b"
     else
-      url "https://github.com/gist-rs/reflex/releases/download/v0.2.1/riir-reflex-v0.2.1-x86_64-apple-darwin.tar.gz"
-      sha256 "4aefbf7d2502503601f0dfa065e4e85afc7f685c64e26329a92b0984f56a643b"
+      url "https://github.com/gist-rs/reflex/releases/download/v0.2.2/reflex-v0.2.2-x86_64-apple-darwin.tar.gz"
+      sha256 "191f3e3c851e7e0979ac27a5fc3fc9c89812fc7cafe4946fd1725b577c6d8648"
     end
   end
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/gist-rs/reflex/releases/download/v0.2.1/riir-reflex-v0.2.1-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "33c0b160a5e32b30dde0543bd2bc8b678599e4eb6d59d40d97d073417576fc4c"
+      url "https://github.com/gist-rs/reflex/releases/download/v0.2.2/reflex-v0.2.2-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "3dd48153a31e4f69990b06726c0afd2d1c24cf2bba386dfe5177e18b4b8f8fd7"
     else
-      url "https://github.com/gist-rs/reflex/releases/download/v0.2.1/riir-reflex-v0.2.1-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "082b6645d42b15b32116d37cfd7fb73c8c00bbd736cea0423b8157a6d73b4024"
+      url "https://github.com/gist-rs/reflex/releases/download/v0.2.2/reflex-v0.2.2-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "6e018b971fe8ab55b8d49882d4debe6f778af3b236d684edf91897609e227f9e"
     end
   end
 
   def install
-    bin.install "riir-reflex"
+    bin.install "reflex"
   end
 end
