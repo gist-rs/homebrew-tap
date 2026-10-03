@@ -8,20 +8,20 @@ class RiirReflex < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/gist-rs/reflex/releases/download/v0.2.3/reflex-v0.2.3-aarch64-apple-darwin.tar.gz"
-      sha256 "9318cf6aae3ef89c7cb385f2d6e90911c151029c55e06c4f97ef18d444eb45d6"
+      url "https://github.com/gist-rs/reflex/releases/download/v0.2.4/reflex-v0.2.4-aarch64-apple-darwin.tar.gz"
+      sha256 "65fecfdd401fc77e15d1745ee95a694a6fbc603c7121c0e265a4808f8751df2f"
     else
-      url "https://github.com/gist-rs/reflex/releases/download/v0.2.3/reflex-v0.2.3-x86_64-apple-darwin.tar.gz"
-      sha256 "7e2457ee91301e8e70d0a9686928ff912910ed9f2065898809efad6dee0b34ce"
+      url "https://github.com/gist-rs/reflex/releases/download/v0.2.4/reflex-v0.2.4-x86_64-apple-darwin.tar.gz"
+      sha256 "e9365aa3bdfefb771ac0e000ddd145bcc0bf90456a3329c1f47d9c1344b39a0a"
     end
   end
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/gist-rs/reflex/releases/download/v0.2.3/reflex-v0.2.3-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "5379455ea1bcefe96d4a987c4d18a37bfad47a6a592cfd4ac235080089627ca9"
+      url "https://github.com/gist-rs/reflex/releases/download/v0.2.4/reflex-v0.2.4-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "638f99652ae8cc014d18f568acd2d6ddd15bd6611ec22c5ae5e2aecfcec65357"
     else
-      url "https://github.com/gist-rs/reflex/releases/download/v0.2.3/reflex-v0.2.3-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "72c9671ca947636fd128680e8e09d68efffa9248728c465e0295133bf9e3dd9c"
+      url "https://github.com/gist-rs/reflex/releases/download/v0.2.4/reflex-v0.2.4-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "30ad90eeaf6b476a84b4d9e959fd9e0f9cf9464708fd9355f30abf792169c322"
     end
   end
 
