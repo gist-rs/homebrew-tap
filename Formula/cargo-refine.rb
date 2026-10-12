@@ -3,24 +3,24 @@
 class CargoRefine < Formula
   desc "Modelless code healer: clippy, rust perf, kernel, docker, rustc-error fixes"
   homepage "https://github.com/gist-rs/cargo-refine"
-  version "0.3.0"
+  version "0.3.1"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/gist-rs/cargo-refine/releases/download/v0.3.0/cargo-refine-v0.3.0-aarch64-apple-darwin.tar.gz"
-      sha256 "66953d8143b1da959b7f3fb9703c4d2b65ba262b5784d76db44dad899ede6f66"
+      url "https://github.com/gist-rs/cargo-refine/releases/download/v0.3.1/cargo-refine-v0.3.1-aarch64-apple-darwin.tar.gz"
+      sha256 "807c5e6783107ae30a783035ed4ab15c5839c1c043f356366fa0dcf9f4ab51d0"
     else
-      url "https://github.com/gist-rs/cargo-refine/releases/download/v0.3.0/cargo-refine-v0.3.0-x86_64-apple-darwin.tar.gz"
-      sha256 "9e4b35caf39095d62168b1a1a599336be592dc7ff6297f71873d6ae355eb0232"
+      url "https://github.com/gist-rs/cargo-refine/releases/download/v0.3.1/cargo-refine-v0.3.1-x86_64-apple-darwin.tar.gz"
+      sha256 "e58f53c5dda23960d3aedf4b32e9a8a7b95b7190a46c804f8ce64fe7a2973045"
     end
   end
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/gist-rs/cargo-refine/releases/download/v0.3.0/cargo-refine-v0.3.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "f6a2591b5874b59c6b67352aa2e823264aa7f6a6a32d64e0a856152544230ef6"
+      url "https://github.com/gist-rs/cargo-refine/releases/download/v0.3.1/cargo-refine-v0.3.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "9609191cfd29a12691fab83396ae2d703b486f7854a4fe3a816a96a363f17231"
     else
-      url "https://github.com/gist-rs/cargo-refine/releases/download/v0.3.0/cargo-refine-v0.3.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "f461fd5890ef023f9757298b2f6761da41d71a51ca79a5e30401374294ced6f5"
+      url "https://github.com/gist-rs/cargo-refine/releases/download/v0.3.1/cargo-refine-v0.3.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "e55d8f62e796695d83443bb77e6f5d3b6b2e3cb865814887d9bb1cf6756ac6a2"
     end
   end
 
