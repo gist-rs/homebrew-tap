@@ -8,19 +8,19 @@ class CargoRefine < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/gist-rs/cargo-refine/releases/download/v0.3.5/cargo-refine-v0.3.5-aarch64-apple-darwin.tar.gz"
-      sha256 "5ea293900d53274387b006b59759f695791b690788c541258f21d03e1f363ccc"
+      sha256 "3e636d060ff6473ccdeb6d64b3829152c62178ef55f1822dfeb1b6babcb8669c"
     else
       url "https://github.com/gist-rs/cargo-refine/releases/download/v0.3.5/cargo-refine-v0.3.5-x86_64-apple-darwin.tar.gz"
-      sha256 "cba0134b2deca9971b4823e13da406be4808b9485fb04cec5c405ef646317a2b"
+      sha256 "7c8a788662e17604e1377c614704dc58e054f81b70a2c2ff81ee8770b4e64189"
     end
   end
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/gist-rs/cargo-refine/releases/download/v0.3.5/cargo-refine-v0.3.5-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "8eafd6d5b410af4e448a22aad413bcddcb2bbb975301fef4e15722d465857bb3"
+      sha256 "c0c881e9d4889ad29197519efa013bc828e92a103f3366dc9d48169826654031"
     else
       url "https://github.com/gist-rs/cargo-refine/releases/download/v0.3.5/cargo-refine-v0.3.5-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "39d71827c4edf54e5cf270abd779af50a67a16f20cfeb44a884b040a38a78092"
+      sha256 "fe41c5a822f5bc7cf2464014aad3407ce9c4a750ee0642f075fbd2262dfbb14e"
     end
   end
 
